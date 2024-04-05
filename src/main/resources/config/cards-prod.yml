@@ -1,0 +1,16 @@
+spring:
+    config:
+        activate:
+            on-profile: "prod"
+
+build:
+    version: 2.0
+
+accounts:
+    message: "Welcome to bank for prod APIs"
+    contactDetails:
+        name: "XYZ"
+        email: "xyz@xyz.com"
+    onCallSupport:
+        - 1234567890
+        - 0987654321

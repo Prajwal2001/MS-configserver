@@ -1,0 +1,12 @@
+
+build:
+    version: 3.0
+
+accounts:
+    message: "Welcome to bank for Dev APIs"
+    contactDetails:
+        name: "DEV"
+        email: "dev@dev.com"
+    onCallSupport:
+        - 1234567890
+        - 0987654321

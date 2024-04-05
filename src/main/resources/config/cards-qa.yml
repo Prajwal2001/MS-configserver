@@ -1,0 +1,16 @@
+spring:
+    config:
+        activate:
+            on-profile: "qa"
+
+build:
+    version: 1.0
+
+accounts:
+    message: "Welcome to bank for QA APIs"
+    contactDetails:
+        name: "ABC"
+        email: "abc@abc.com"
+    onCallSupport:
+        - 1234567890
+        - 0987654321
