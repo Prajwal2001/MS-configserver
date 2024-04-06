@@ -1,16 +1,11 @@
-spring:
-    config:
-        activate:
-            on-profile: "prod"
-
 build:
-    version: 2.0
+  version: "1.0"
 
-accounts:
-    message: "Welcome to bank for prod APIs"
-    contactDetails:
-        name: "XYZ"
-        email: "xyz@xyz.com"
-    onCallSupport:
-        - 1234567890
-        - 0987654321
+cards:
+  message: "Welcome to EazyBank cards related prod APIs "
+  contactDetails:
+    name: "Sandra Harald - Product Owner"
+    email: "sandra@eazybank.com"
+  onCallSupport:
+    - (617) 432-2356
+    - (936) 564-8721
